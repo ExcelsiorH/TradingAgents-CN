@@ -156,6 +156,13 @@ class ConfigManager:
                     temperature=0.7
                 ),
                 ModelConfig(
+                    provider="dashscope",
+                    model_name="qwen-plus",
+                    api_key="",
+                    max_tokens=8000,
+                    temperature=0.7
+                ),
+                ModelConfig(
                     provider="openai",
                     model_name="gpt-3.5-turbo",
                     api_key="",
